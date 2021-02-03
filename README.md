@@ -17,13 +17,13 @@
 *_Project manager:_* 
 
 *_Members:_* 
-Karl Gregor Rauniste
-Robin Kukk
-Tiiu Tuhkanen
-Joonas Hendrik
-Kadri Maripuu
-Johanna
-Rainis Tiirik
+Karl Gregor Rauniste,
+Robin Kukk,
+Tiiu Tuhkanen,
+Joonas Hendrik,
+Kadri Maripuu,
+Johanna,
+Rainis Tiirik,
 
 
 # Idea of Creating Vr online game
