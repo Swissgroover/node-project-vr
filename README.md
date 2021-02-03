@@ -23,20 +23,17 @@ We are team
 ​
 
 
-## "screenshot"
+## "Screenshot"
 
 
 Lights
 ```
-<!-- Lights! -->
         <a-light type="directional" castShadow="true" intensity="0.5" color="#FFF" position="2 5 0"></a-light>
         <a-light intensity="0.1" type="ambient" position="1 1 1" color="#FFF"></a-light>
 
 ```
 Camera
 ```
-
-<!-- Camera! -->
         <a-entity id="rig" position="0 3 0">
             <a-camera wasd-controls look-controls>
                 <a-entity cursor="fuse: true; fuseTimeout: 250" position="0 0 -1" geometry="primitive: ring; radiusInner: 0.03; radiusOuter: 0.04" material="color: white; shader: flat; opacity: 0.5" scale="0.5 0.5 0.5" raycaster="far: 20; interval: 1000; objects: .clickable">
