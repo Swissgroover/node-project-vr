@@ -1,8 +1,16 @@
 ## Table of contents
+* [Technologies](#Technologies)
 * [Our Team](#Our-team)
 * [Idea of Creating Vr online game](#Idea-of-Creating-Vr-online-game)
 * [Prototype](#Prototype)
 * [Screenshot](#Screenshot)
+* [Code snaps](#Code-snaps)
+
+
+# Technologies
+* HTML
+* Javascript
+* A-frame IO
 
 # Our team
 
@@ -21,15 +29,19 @@ We are team
 
 
 
-## Idea of Creating Vr online game
+# Idea of Creating Vr online game
 ​
 
 
-## Prototype
+# Prototype
 ​
 
 
-## "Screenshot"
+# "Screenshot"
+
+
+
+# "Code snaps"
 
 
 Lights
