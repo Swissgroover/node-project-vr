@@ -14,13 +14,16 @@
 
 # Our team
 
-**_Project manager:_**  
+*_Project manager:_* 
 
-**_Members:_**   
-
-**Developers:** 
-
-**Design:** 
+*_Members:_* 
+Karl Gregor Rauniste
+Robin Kukk
+Tiiu Tuhkanen
+Joonas Hendrik
+Kadri Maripuu
+Johanna
+Rainis Tiirik
 
 
 # Idea of Creating Vr online game
