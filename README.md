@@ -42,13 +42,11 @@
 Theme
 ```
     <a-scene fog="type: linear; color: #111; near:10; far:15">
-
 ```
 Lights
 ```
         <a-light type="directional" castShadow="true" intensity="0.5" color="#FFF" position="2 5 0"></a-light>
         <a-light intensity="0.1" type="ambient" position="1 1 1" color="#FFF"></a-light>
-
 ```
 Camera
 ```
