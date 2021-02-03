@@ -1,5 +1,5 @@
 ## Table of contents
-* [Our Team](#Our team)
+* [OurTeam](#Our team)
 * [Idea of Creating Vr online game](#Idea of Creating Vr online game)
 * [Prototype](#Prototype)
 * [Screenshot](#Screenshot)
