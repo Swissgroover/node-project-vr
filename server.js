@@ -178,7 +178,7 @@ io.on('connection', (socket) => {
         io.emit('test_click')
         console.log('an orb has been clicked test test ')
     })
-    socket.on('toggleOrb', id =>{
+    socket.on('toggleOrb', id=>{
         console.log('test')
         console.log(id)
     io.emit('orbToggled', id)});

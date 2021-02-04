@@ -27,6 +27,7 @@ $(document).ready(function() {
             container.find('.dep-left').remove();
             container.find('.dep-right').remove();
         }
+        
 
         container.find('.orb-id').attr('value', i);
         container.attr('id', 'container-orb' + i);
@@ -72,7 +73,7 @@ $(document).ready(function() {
         
     });
     socket.on('orbToggled', id =>{
-     
+    
      toggleOrb(id)
   });
 
@@ -98,6 +99,7 @@ function getOrbsOn() {
 
 function toggleOrb(i) {
     console.log(orbs[i].on)
+    document.querySelector('#light-orb' + i).emit("switch")
     orbs[i].on = !orbs[i].on;
     if (getOrbsOn().every(x => x)) win();
 }
