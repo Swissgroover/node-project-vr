@@ -6,131 +6,10 @@
     <script src="https://aframe.io/releases/0.8.0/aframe.min.js"></script>
     <script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
     <script src="https://cdn.jsdelivr.net/gh/alvinwan/aframe-low-poly@0.0.5/dist/aframe-low-poly.min.js"></script>
+    <script src="/socket.io/socket.io.js"></script>
+    <script src="/public/js/orb.js"></script>
     <link href="https://fonts.googleapis.com/css?family=Noto+Sans+HK:400,900&display=swap" rel="stylesheet">
-
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/socket.io/2.1.1/socket.io.js"></script>
-    <script>
-        var orbs = [{
-
-        }, {
-            on: true
-        }, {}, {
-            on: true
-        }, {}];
-
-        $(document).ready(function() {
-
-            function populateTemplate(orb, template, i, total) {
-                var container = template.find('.container');
-                var onclick = 'document.querySelector("#light-orb' + i + '").emit("switch");';
-
-                if (orb.left || orb.right) {
-                    if (orb.left) {
-                        onclick += 'clickOrb(' + orb.left + ');';
-                        container.find('.dep-left').attr('value', orb.left);
-                    }
-                    if (orb.right) {
-                        onclick += 'clickOrb(' + orb.right + ');';
-                        container.find('.dep-right').attr('value', orb.right);
-                    }
-                } else {
-                    container.find('.dep-left').remove();
-                    container.find('.dep-right').remove();
-                }
-
-                container.find('.orb-id').attr('value', i);
-                container.attr('id', 'container-orb' + i);
-                template.find('.orb').attr('id', 'orb' + i);
-                template.find('.light-orb').attr('id', 'light-orb' + i);
-                template.find('.clickable').attr('data-id', i);
-
-                container.attr('onclick', onclick);
-                container.find('lp-sphere').attr('seed', i);
-                template.attr('rotation', '0 ' + (360 / total * i) + ' 0');
-
-                if (!orb.on) {
-                    template.find('.container').attr('scale', '0.5 0.5 0.5').attr('position', '8 0.5 0');
-                    template.find('.animation-scale').attr('from', '0.5 0.5 0.5').attr('to', '1 1 1');
-                    template.find('.animation-position').attr('from', '8 0.5 0').attr('to', '8 3 0');
-                    template.find('.light-orb').attr('intensity', 0);
-                    template.find('.animation-intensity').attr('from', 0).attr('to', 1)
-                }
-
-                return template;
-            }
-
-            function remove(selector) {
-                var el = document.querySelector(selector);
-                el.parentNode.removeChild(el);
-            }
-
-            for (var i = 0; i < orbs.length; i++) {
-                var orb = orbs[i];
-                var template = $('#template').clone();
-                template = populateTemplate(orb, template, i, orbs.length);
-                $('#carousel').append(template);
-            }
-
-            remove('#template');
-            setTimeout(transitionOrbs, 10);
-
-            $('.orb').on('click', function() {
-                var id = $(this).attr('data-id');
-                if (!allowedToToggle(id)) return false;
-                socket.emit('toggleOrb', id);
-                toggleOrb(id);
-            });
-        });
-        8
-
-        socket = io("");
-        socket.emit('newPlayer');
-        socket.on('playerId', function(player_id) {
-            current_player_id = player_id;
-        });
-        socket.on('toggleOrb', function(i) {
-            document.querySelector("#container-orb" + i).click();
-            toggleOrb(i);
-        });
-
-
-        function transitionOrbs() {
-            document.querySelectorAll('.wrapper').forEach(function(el) {
-                el.emit('transition');
-            });
-            document.querySelector('#content').emit('transition');
-        }
-
-        function win() {
-            document.querySelector('#content a-text').setAttribute('value', 'Victory');
-            transitionOrbs();
-        }
-
-        function getOrbsOn() {
-            return orbs.map(orb => orb.on)
-        }
-
-        function toggleOrb(i) {
-            orbs[i].on = !orbs[i].on;
-            if (getOrbsOn().every(x => x)) win();
-        }
-
-        function clickOrb(i) {
-            if (!allowedToToggle(i)) return;
-            document.querySelector("#container-orb" + i).click();
-            socket.emit('toggleOrb', i);
-            toggleOrb(i);
-        }
-
-        function allowedToToggle(id) {
-            if (current_player_id == 1) {
-                return id % 2;
-            } else if (current_player_id == 2) {
-                return !(id % 2);
-            }
-            return false;
-        }
-    </script>
+ 
     <style>
         html {
             background-color: #111
@@ -160,7 +39,7 @@
         <a-entity position="0 5 -10">
             <a-entity id="content">
                 <a-text shadow value="Tere" font="exo2bold" scale="10 10 10" align="center" baseline="center" position="0 3 1"></a-text>
-                <a-ring color="#fff" material="side:double" position="0 0.5 0" radius-inner="2.4" radius-outer="2.5" opacity="0.25">
+                <a-ring color="#fff" material="side:double"  position="0 0.5 0" radius-inner="2.4" radius-outer="2.5" opacity="0.25">
                     <a-animation attribute="rotation" easing="linear" repeat="indefinite" from="0 45 0" to="360 45 0" dur="8000"></a-animation>
                 </a-ring>
                 <a-animation begin="transition" attribute="position" from="0 0 0" to="0 -10 0" dur="3000" easing="ease-elastic" direction="alternate"></a-animation>
@@ -193,6 +72,11 @@
         <a-sphere color="blue" radius="0.5" position="0 1 0"></a-sphere>
 
     </a-scene>
+  
+   
+ 
+    
+    
 </body>
 
 </html>
