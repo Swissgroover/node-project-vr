@@ -13,21 +13,21 @@ function validate(e) {
   if (!username || username === '' || username.length < 6) {
     const nameError = document.getElementById("username-error");
     nameError.innerHTML = `
-        <p>Username not valid!</p>
+        <p class="text-red-500">Username not valid!</p>
     `
   }
 
   if(password.length < 6 || !password) {
     const passwordError = document.getElementById("password-error");
     passwordError.innerHTML = `
-        <p>Password not valid!</p>
+        <p class="text-red-500">Password not valid!</p>
     `
   }
 
   if(password !== passwordAgain) {
     const passwordAgainError = document.getElementById("password-again-error");
     passwordAgainError.innerHTML = `
-        <p>Password must be the same!</p>
+        <p class="text-red-500">Password must be the same!</p>
     `
   }
 }
