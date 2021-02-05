@@ -18,7 +18,7 @@ Node JS / JS / npm
 
 # Our Team
 
-* Project manager:
+* Project manager: Karl Gregor Rauniste
 
 * Members: Karl Gregor Rauniste, Robin Kukk, Tiiu Tuhkanen, Joonas Hendrik, Kadri Maripuu, Johanna, Rainis Tiirik,
 
