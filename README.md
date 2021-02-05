@@ -20,7 +20,7 @@ Node JS / JS / npm
 
 * Project manager: Karl Gregor Rauniste
 
-* Members: Karl Gregor Rauniste, Robin Kukk, Tiiu Tuhkanen, Joonas Hendrik, Kadri Maripuu, Johanna, Rainis Tiirik,
+* Members: Karl Gregor Rauniste, Robin Kukk, Tiiu Tuhkanen, Joonas Hendrik, Kadri Maripuu, Johanna Avik, Rainis Tiirik,
 
 # Idea of Creating Vr online game
 
