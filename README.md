@@ -1,64 +1,61 @@
-## Table of contents
-* [Technologies](#Technologies)
-* [Our Team](#Our-team)
-* [Idea of Creating Vr online game](#Idea-of-Creating-Vr-online-game)
-* [Prototype](#Prototype)
-* [Screenshot](#Screenshot)
-* [Code snaps](#Code-snaps)
+**Stack**
+- Node JS / JS / npm
+- Express (Node JS framework)
+- Socket.io
+- Redis
 
+--------------------------------
 
-# Technologies
-* HTML
-* Javascript
-* A-frame IO
+**How to run**
 
-# Our team
+This how to explains how to run this project on Ubuntu server.
 
-*_Project manager:_* 
-
-*_Members:_* 
-Karl Gregor Rauniste,
-Robin Kukk,
-Tiiu Tuhkanen,
-Joonas Hendrik,
-Kadri Maripuu,
-Johanna,
-Rainis Tiirik,
-
-
-# Idea of Creating Vr online game
-​
-
-
-# Prototype
-​
-
-
-# "Screenshot"
-
-![Screenshot](https://github.com/Swissgroover/node-project-vr/blob/main/Screenshot%20at%20Feb%2003%2022-37-04.png)
-![Screenshot](https://github.com/Swissgroover/node-project-vr/blob/main/Screenshot%20at%20Feb%2003%2022-37-15.png)
-
-# "Code snaps"
-
-
-Theme
+1. Update your system
 ```
-    <a-scene fog="type: linear; color: #111; near:10; far:15">
+sudo apt update && sudo apt -y upgrade
 ```
-Lights
+2. Install the most recent version of Nodejs and npm (node packet manager). We use this repository because the normal Ubuntu repository has very old version.
 ```
-        <a-light type="directional" castShadow="true" intensity="0.5" color="#FFF" position="2 5 0"></a-light>
-        <a-light intensity="0.1" type="ambient" position="1 1 1" color="#FFF"></a-light>
+curl -sL https://deb.nodesource.com/setup_12.x | sudo -E bash -
+sudo apt-get install -y nodejs
 ```
-Camera
+3. Test Nodejs
 ```
-        <a-entity id="rig" position="0 3 0">
-            <a-camera wasd-controls look-controls>
-                <a-entity cursor="fuse: true; fuseTimeout: 250" position="0 0 -1" geometry="primitive: ring; radiusInner: 0.03; radiusOuter: 0.04" material="color: white; shader: flat; opacity: 0.5" scale="0.5 0.5 0.5" raycaster="far: 20; interval: 1000; objects: .clickable">
-                    <a-circle radius="0.01" color="#FFF" opacity="0.5" material="shader: flat"></a-circle>
-                    <a-animation begin="fusing" easing="ease-in" attribute="scale" fill="backwards" from="1 1 1" to="0.2 0.2 0.2" dur="250"></a-animation>
-                </a-entity>
-            </a-camera>
-        </a-entity>
+node -v
+```
+4. Test npm
+```
+npm -v
+```
+5. Install nodemon globally
+```
+sudo npm install -g nodemon
+```
+6. Install Redis
+```
+sudo apt install redis-server
+```
+7. Update redis.conf file. Find `supervised no` line and change to `supervised systemd` since Ubuntu uses the systemd init system.
+```
+sudo nano /etc/redis/redis.conf
+```
+8. Start Redis
+```
+sudo service redis-server start
+```
+9. Clone the repository
+```
+git clone https://github.com/kuressaareametikool/node-project
+```
+10. Change directory to project folder
+```
+cd node-project
+```
+11. Install modules
+```
+npm install
+```
+12. Run server
+```
+nodemon server.js
 ```

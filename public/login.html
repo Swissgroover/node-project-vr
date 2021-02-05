@@ -4,31 +4,44 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://unpkg.com/tailwindcss@^2/dist/tailwind.min.css" rel="stylesheet">
     <link rel="stylesheet" href="/public/css/style.css">
     <title>Login</title>
 </head>
 
 <body>
-    <div>
-        <form x-data="{password: '',password_confirm: ''}">
-            <div>
-                <label for="username">Username</label>
-                <input placeholder="" id="username" type="text" />
+    <div class="w-screen h-screen bg-blue-100 flex justify-center items-center">
+        <div class="max-w-sm mx-auto px-6">
+            <div class="relative flex flex-wrap">
+                <div class="w-full relative">
+                    <div class="md:mt-6">
+                        <form class="mt-8" x-data="{password: '',password_confirm: ''}">
+                            <div class="mx-auto max-w-lg">
+                                <div class="py-1">
+                                    <span class="px-1 text-sm text-gray-600">Username</span>
+                                    <input placeholder="" id="username" type="text" class="rounded py-2 pl-3 pr-10 w-full border border-gray-800 focus:border-gray-700 bg-gray-800 focus:bg-gray-900 focus:outline-none text-gray-200 focus:shadow-md transition duration-300 ease-in" />
+                                </div>
+                                <div class="py-1">
+                                    <span class="px-1 text-sm text-gray-600">Password</span>
+                                    <input placeholder="" id="password" type="password" x-model="password" class="rounded py-2 pl-3 pr-10 w-full border border-gray-800 focus:border-gray-700 bg-gray-800 focus:bg-gray-900 focus:outline-none text-gray-200 focus:shadow-md transition duration-300 ease-in"
+                                    />
+                                </div>
+                                <div class="flex flex-row gap-2">
+                                    <button type="button" id="login-button" class="mt-3 text-lg font-semibold bg-gray-700 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:text-white hover:bg-black">
+                                  Login
+                                </button>
+                                    <a href="/public/register.html" id="register-button" class="mt-3 text-lg font-semibold bg-gray-700 w-full text-white rounded-lg px-6 py-3 block shadow-xl hover:text-white hover:bg-black">
+                                Register
+                                    </a>
+                                </div>
+                            </div>
+                        </form>
+                    </div>
+                </div>
             </div>
-            
-            <div>
-                <label for="password">Password</label>
-                <input placeholder="" id="password" type="password" x-model="password" />
-            </div>
-            
-            <div>
-                <button type="button" id="login-button">Login</button>
-            </div>
-            <div>
-                <a href="/public/register.html" id="register-button">Register</a>
-            </div>
-        </form>
+        </div>
     </div>
     <script src="/public/js/login.js"></script>
 </body>
+
 </html>

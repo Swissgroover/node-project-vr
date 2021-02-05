@@ -132,6 +132,21 @@ app.get("/logout", (req, res) => {
 // Listen socket.io connections from client side
 io.on('connection', (socket) => {
     const sess = socket.request.session
+    console.log('logged in', socket.id)
+
+
+    io.emit('test')
+
+    //socket.emit('playerId', function() {
+    //   console.log("works!")
+    //   if (!currentPlayerId){
+    //      return current_player_id = 1
+    // }
+    // else{
+    //       return current_player_id++
+    //    }
+
+    // });
 
     // On connection update user list
     userList[sess.username] = socket.id;
@@ -148,7 +163,31 @@ io.on('connection', (socket) => {
         delete userList[sess.username];
         io.emit('updateUserList', userList);
     });
+
+    //socket.emit('newPlayer');
+
+
+    //socket.on('toggleOrb', function(i) {
+    //document.querySelector("#container-orb" + i).click();
+    //toggleOrb(i);
+    //});
+    socket.on('hello', hello => {
+        console.log('This sends a message from the client to the server!!')
+    })
+    socket.on('clicked', clicked => {
+        io.emit('test_click')
+        console.log('an orb has been clicked test test ')
+    })
+    socket.on('toggleOrb', id => {
+        console.log('test')
+        console.log(id)
+        io.emit('orbToggled', id)
+    });
+
 });
+
+
+
 
 
 // Run node.js server
