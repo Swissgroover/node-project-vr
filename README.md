@@ -87,6 +87,7 @@ Joonas:
 Üks tehniline oskus, mida õppisin ja endas arendasin - Õppisin, et VR pole eriti NII raske programmeerida kui sa tead mida sa teed.
 
 Rainis-Ross Tiirik:
+
 -Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas-VR projekt oli minu jaoks huvitav,kuid ma oleks tahtnud rohkem kaasa aidata,aga mul on hea meel,et kohal käisin.
 -Üks pehme oskus, mida õppisin ja endas arendasin-Sain teada, et A-frame abil  saab teha VR rakendusi.
 -Üks tehniline oskus, mida õppisin ja endas arendasin-Jõudsin natuke õppida,kuidas A-frame kasutada ja jõudsin ka teha ühe kuubiku.   
