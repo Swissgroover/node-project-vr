@@ -1,5 +1,5 @@
 
-# Table of contents
+## Table of contents
 * [Technologies](#Technologies)
 * [Our Team](#Our-Team)
 * [Idea of Creating Vr online game](#Idea-of-Creating-Vr-online-game)
@@ -7,31 +7,34 @@
 * [Screenshot](#Screenshot)
 * [Code snaps](#Code-snaps)
 
-#Technologies
+## Technologies
 Node JS / JS / npm
 - Express (Node JS framework)
 - Socket.io
 - Redis
 - Html
--Javascript
--A-frame
+- Javascript
+- A-frame
 
-#Our Team
+# Our Team
 
-Project manager:
+* Project manager:
 
-*Members: Karl Gregor Rauniste, Robin Kukk, Tiiu Tuhkanen, Joonas Hendrik, Kadri Maripuu, Johanna, Rainis Tiirik,
+* Members: Karl Gregor Rauniste, Robin Kukk, Tiiu Tuhkanen, Joonas Hendrik, Kadri Maripuu, Johanna, Rainis Tiirik,
 
-#Idea of Creating Vr online game
+# Idea of Creating Vr online game
 
 
-#Prototype
+# Prototype
 
 https://ta19rauniste.itmajakas.ee/
 
-#Screenshot
+# Screenshot
 
-#Code snaps
+![Screenshot](https://github.com/Swissgroover/node-project-vr/blob/main/Screenshot%20at%20Feb%2003%2022-37-04.png)
+![Screenshot](https://github.com/Swissgroover/node-project-vr/blob/main/Screenshot%20at%20Feb%2003%2022-37-15.png)
+
+# Code snaps
 
 Theme
 ```
@@ -52,4 +55,3 @@ Camera
                 </a-entity>
             </a-camera>
         </a-entity>
-```
