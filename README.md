@@ -65,7 +65,7 @@ Camera
 - Üks tehniline oskus, mida õppisin ja endas arendasin
 		
 Tiiu:
-Kas ma oleks tahtnud mingit muud ülesannet täita - Juhul, kui me poleks otsustanud VR projekti kasuks vaid läinud nn klassikalisemat rada pidi (Figma - HTML/CSS - JS + muu müstika), siis ma oleksin olnud päris õnnetu. Aga kuna me tegime VR-i ja klassikaline rada ei realiseerunud, siis ma olin enda rollis päris õnnelik. Projekt oli huvitav ja müstiline ja teostatamatuma näiv, aga valmis sai. Kommitädi ja kohvipiimatädi oli päris hea tunne olla.
+- Kas ma oleks tahtnud mingit muud ülesannet täita - Juhul, kui me poleks otsustanud VR projekti kasuks vaid läinud nn klassikalisemat rada pidi (Figma - HTML/CSS - JS + muu müstika), siis ma oleksin olnud päris õnnetu. Aga kuna me tegime VR-i ja klassikaline rada ei realiseerunud, siis ma olin enda rollis päris õnnelik. Projekt oli huvitav ja müstiline ja teostatamatuma näiv, aga valmis sai. Kommitädi ja kohvipiimatädi oli päris hea tunne olla.
 Pehme oskus, mida õppisin - see projekt oli pehmete oskuste projekt minu jaoks. Projektiga liitus omaette alamprojekt, kellega oli päris huvitav tööd teha teisel päeval. Sain teada, et motivatsioonikoolitus kulub nii mõnelegi ära...
 Tehniline oskus - A-frame'st ma tõesti polnud varem kuulnud ka, kuid projekti lõpuks sain ja ise enda virtuaalreaalse kuubiku loomisega hakkama. Päris hea tunne on ja tahaks edasi tegutseda. Google Tilt Brush oli ka uus ja põnev asi, millest varem kuulnudki polnud. Tahaks katsetada. 
 
@@ -82,7 +82,7 @@ Tehniline oskus mida ma sain põhjalikumalt uurida ja teada  sain oli A-Frame. S
 	
 	
 Joonas:
-Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas - Kui ma oleksin võimeline seda teha, oleks küll tahtnud kuna ma nii palju ei teinud aga aitasin ikkagi.
+- Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas - Kui ma oleksin võimeline seda teha, oleks küll tahtnud kuna ma nii palju ei teinud aga aitasin ikkagi.
 Üks pehme oskus, mida õppisin ja endas arendasin - Õppisin et VR mängud kasutavad sama programmeerimiskeelt mis tavalised mängud.
 Üks tehniline oskus, mida õppisin ja endas arendasin - Õppisin, et VR pole eriti NII raske programmeerida kui sa tead mida sa teed.
 
