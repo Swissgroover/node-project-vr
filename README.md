@@ -104,4 +104,12 @@ Kahjuks ei suutnud selles osas end seekord arendada.
 - Üks tehniline oskus, mida õppisin ja endas arendasin
 Soket.io juurde õppisin palju, toimingust ja funktsioonidest sain palju teada.
 
+Robin Kukk:
+- Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas:
+Ei, mulle minu ülesanded meeldisid.
+- Üks pehme oskus, mida õppisin ja endas arendasin:
+Sain meeskonnatööd arendada.
+- Üks tehniline oskus, mida õppisin ja endas arendasin:
+Tunnen ennast socket.io kasutamisel palju kindlamalt ning sain A-Frameiga tutvuda.
+
  
