@@ -55,3 +55,20 @@ Camera
                 </a-entity>
             </a-camera>
         </a-entity>
+ ```
+
+
+## Küsitluse Vastused
+# Küsimused:
+            Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+			Üks pehme oskus, mida õppisin ja endas arendasin
+			Üks tehniline oskus, mida õppisin ja endas arendasin
+		
+		
+	
+	
+
+
+
+
+ 
