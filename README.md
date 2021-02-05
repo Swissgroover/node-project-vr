@@ -39,7 +39,7 @@ https://ta19rauniste.itmajakas.ee/
 Theme
 ```
     <a-scene fog="type: linear; color: #111; near:10; far:15">
-    ```
+```
 Lights
 ```
         <a-light type="directional" castShadow="true" intensity="0.5" color="#FFF" position="2 5 0"></a-light>
