@@ -60,14 +60,31 @@ Camera
 
 ## Küsitluse Vastused
 # Küsimused:
-            Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
-			Üks pehme oskus, mida õppisin ja endas arendasin
-			Üks tehniline oskus, mida õppisin ja endas arendasin
+- Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas
+- Üks pehme oskus, mida õppisin ja endas arendasin
+- Üks tehniline oskus, mida õppisin ja endas arendasin
 		
-		
-	
-	
+Tiiu:
+Kas ma oleks tahtnud mingit muud ülesannet täita - Juhul, kui me poleks otsustanud VR projekti kasuks vaid läinud nn klassikalisemat rada pidi (Figma - HTML/CSS - JS + muu müstika), siis ma oleksin olnud päris õnnetu. Aga kuna me tegime VR-i ja klassikaline rada ei realiseerunud, siis ma olin enda rollis päris õnnelik. Projekt oli huvitav ja müstiline ja teostatamatuma näiv, aga valmis sai. Kommitädi ja kohvipiimatädi oli päris hea tunne olla.
+Pehme oskus, mida õppisin - see projekt oli pehmete oskuste projekt minu jaoks. Projektiga liitus omaette alamprojekt, kellega oli päris huvitav tööd teha teisel päeval. Sain teada, et motivatsioonikoolitus kulub nii mõnelegi ära...
+Tehniline oskus - A-frame'st ma tõesti polnud varem kuulnud ka, kuid projekti lõpuks sain ja ise enda virtuaalreaalse kuubiku loomisega hakkama. Päris hea tunne on ja tahaks edasi tegutseda. Google Tilt Brush oli ka uus ja põnev asi, millest varem kuulnudki polnud. Tahaks katsetada. 
 
+Johanna:
+- Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas?
+
+Ma ei olnud väga rahul selle ülesandega mis mulle anti. Tundisin enaste natuke halvasti ja kasutult, sest enamus tööd tegid ainult kaks inimest selles gruppis. Minu arvates oleks võinud nii teha, et teise kursuse õpetajad juhendavad esimeses kuruse omasid ning kõrval abistavad neid.  Meil läks ka palju aega sellele, et mida me lõpuks tahaksime teha. Aga lõpuks saime ka natukene pinged maha võtta ja lihtsalt motiveerimisest ja koolist rääkida. Seekord oli minu jaoks projekt väga teistsugune, mis on väga hea pluss.
+	
+- Üks pehme oskus, mida õppisin ja endas arendasin?:
+Sain tiimi kaaslaste käest rohkem teada, mis on A-Frame mida see endast kujutab ning kuidas sellega tööd tehakse. Väga täpselt ei Oskar defineerida sochetit ja node. Väga palju aitasid ka meid õpetajad, sain rohkem iseseisvalt uurida/lahendad A-Frameì ga teha virtuaalreaalset kuubikut luua. 
+	
+- Üks tehniline oskus, mida õppisin ja endas arendasin.:
+Tehniline oskus mida ma sain põhjalikumalt uurida ja teada  sain oli A-Frame. Sain ka aimu kuidas tehakse VR mänge ning mida selle jaoks läheb vaja.
+	
+	
+Joonas:
+Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas - Kui ma oleksin võimeline seda teha, oleks küll tahtnud kuna ma nii palju ei teinud aga aitasin ikkagi.
+Üks pehme oskus, mida õppisin ja endas arendasin - Õppisin et VR mängud kasutavad sama programmeerimiskeelt mis tavalised mängud.
+Üks tehniline oskus, mida õppisin ja endas arendasin - Õppisin, et VR pole eriti NII raske programmeerida kui sa tead mida sa teed.
 
 
 
