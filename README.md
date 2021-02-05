@@ -95,6 +95,13 @@ Rainis-Ross Tiirik:
 -Üks tehniline oskus, mida õppisin ja endas arendasin-Jõudsin natuke õppida,kuidas A-frame kasutada ja jõudsin ka teha ühe kuubiku.   
 
 
+Karl Gregor:
+- Kas oleksid tahtnud täita mingit muud ülesannet selles meeskonnas:
+ Ilmselt mitte. VR alati huvi pakkunud, ning seekord see multiplayer versioon teha, oli huvitav. Kahju oli,et ei suutnud tervele meedkonnale konkreetseid üleasndeid jagada. Loodan, et körvalt vaadates öppisid ikkagi virtuaal reaalsuse kohta juurde, ning dokumentatsiooni põhjal arendasid end.
+- Üks pehme oskus, mida õppisin ja endas arendasin
+Kahjuks ei suutnud selles osas end seekord arendada.
 
+- Üks tehniline oskus, mida õppisin ja endas arendasin
+Soket.io juurde õppisin palju, toimingust ja funktsioonidest sain palju teada.
 
  
